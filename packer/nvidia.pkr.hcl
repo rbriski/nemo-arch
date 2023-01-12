@@ -57,6 +57,6 @@ build {
   }
 
   provisioner "shell" {
-    script = "scripts/install_python.sh"
+    script = "scripts/install_nemo.sh"
   }
 }

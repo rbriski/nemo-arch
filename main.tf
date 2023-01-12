@@ -6,6 +6,7 @@ variable "key_pair" {
   sensitive = true
 }
 
+
 terraform {
   required_providers {
     aws = {
